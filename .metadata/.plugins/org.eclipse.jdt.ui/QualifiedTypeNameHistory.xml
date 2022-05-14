@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="ejercicio02a05.Main"/>
+    <fullyQualifiedTypeName name="ejercicio09.CuentaBancaria"/>
+    <fullyQualifiedTypeName name="ejercicio09.TipoDeCuenta"/>
+    <fullyQualifiedTypeName name="ejercicio13.SuperHeroe"/>
+    <fullyQualifiedTypeName name="ejercicio13.Resultado"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ejercicio15.Titular"/>
+    <fullyQualifiedTypeName name="ejercicio15.TarjetaDeCredito"/>
+    <fullyQualifiedTypeName name="ejercicio15.EntidadFinanciera"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ejercicio01.Domicilio"/>
+</qualifiedTypeNameHistroy>

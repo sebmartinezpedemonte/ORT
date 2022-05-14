@@ -1,0 +1,67 @@
+package ejercicio08;
+
+public class TarjetaDeCredito {
+	private String numero;
+	private String titular;
+	private double limiteDeCompra;
+	private double acumuladoActual;
+	
+	public TarjetaDeCredito(String numero, String titular, double limiteDeCompra) {
+		this.numero = numero;
+		this.titular = titular;
+		this.limiteDeCompra = limiteDeCompra;
+		acumuladoActual = 0;
+	}
+
+	public String getNumero() {
+		return numero;
+	}
+
+	private void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	private void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public double getLimiteDeCompra() {
+		return limiteDeCompra;
+	}
+
+	private void setLimiteDeCompra(double limiteDeCompra) {
+		this.limiteDeCompra = limiteDeCompra;
+	}
+	
+	public double montoDisponible() {
+		if(limiteDeCompra - acumuladoActual > 0) {
+		return limiteDeCompra - acumuladoActual;
+		}else {
+			return 0;
+		}
+		
+	}
+	
+	public boolean compraPosible(double precioProducto) {
+		return precioProducto<= montoDisponible();
+	}
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "TarjetaDeCredito [numero=" + numero + ", titular=" + titular + ", limiteDeCompra=" + limiteDeCompra
+				+ ", acumuladoActual=" + acumuladoActual + ", montoDisponible()=" + montoDisponible() + "]";
+	}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package ejercicio15;
+
+public class Ticket {
+	private String nombreApellido;
+	private double montoTotal;
+	private double montoPorCuota;
+	@Override
+	public String toString() {
+		return "Ticket [nombreApellido=" + nombreApellido + ", montoTotal=" + montoTotal + ", montoPorCuota="
+				+ montoPorCuota + "]";
+	}
+	
+	
+}

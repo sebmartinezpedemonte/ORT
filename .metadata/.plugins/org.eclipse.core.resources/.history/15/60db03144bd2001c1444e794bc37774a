@@ -1,0 +1,17 @@
+package clase7bis;
+
+public class Main {
+	public static void main(String[] args) {
+		Concesionaria sanJorge = new Concesionaria("San Jorge");
+
+		Auto fiatCronos = new Auto("Fiat", "Cronos", "ae394ar", Color.AZUL);
+		Auto VWGol = new Auto("Volkswagen", "Gol", "fir980", Color.BLANCO);
+		
+		
+		sanJorge.agregarAuto(fiatCronos);
+		sanJorge.agregarAuto(VWGol);
+		sanJorge.mostrarAutos();
+		sanJorge.eliminarAuto(fiatCronos);
+		sanJorge.mostrarAutos();
+	}
+}

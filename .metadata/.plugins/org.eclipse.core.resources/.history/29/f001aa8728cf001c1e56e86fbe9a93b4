@@ -1,0 +1,71 @@
+package ejercicio15;
+
+public class Posnet {
+	
+	/*
+	 *  public static final double RECARGO_POR_CUOTA = 0.03;
+    public static final int MIN_CANT_CUOTAS = 1;
+    public static final int MAX_CANT_CUOTAS = 6;
+	 */
+	
+	
+
+	public static String efectuarPago(TarjetaDeCredito tarjetaDeCredito, double montoAAbonar, int cantidadDeCuotas) {
+		String mensaje = null;
+		if (tarjetaSaldoSuficiente(tarjetaDeCredito, montoAAbonar, cantidadDeCuotas)
+				&& (cantidadDeCuotas >= 1 && cantidadDeCuotas <= 6)) {
+			mensaje = tarjetaDeCredito.nombreYApellidoTitular() + " el monto total es de "
+					+ montoTotalAbonar(montoAAbonar, cantidadDeCuotas) + " y el monton de cada cuota es de "
+					+ montoTotalAbonar(montoAAbonar, cantidadDeCuotas) / cantidadDeCuotas;
+		}
+		return mensaje;
+	}
+
+	public static Ticket efectuarPagoConTicket(TarjetaDeCredito tarjetaDeCredito, double montoAAbonar,
+			int cantidadDeCuotas) {
+		Ticket ticket1 = null;
+		String titular = tarjetaDeCredito.nombreYApellidoTitular();
+		double montoTotal = montoTotalAbonar(montoAAbonar, cantidadDeCuotas);
+		double montoPorCuota = montoTotalAbonar(montoAAbonar, cantidadDeCuotas) / cantidadDeCuotas;
+		if (tarjetaSaldoSuficiente(tarjetaDeCredito, montoAAbonar, cantidadDeCuotas)
+				&& (cantidadDeCuotas >= 1 && cantidadDeCuotas <= 6)) {
+			ticket1 = new Ticket(titular, montoTotal, montoPorCuota);	
+
+		}
+
+		return ticket1;
+	}
+
+	private static boolean tarjetaSaldoSuficiente(TarjetaDeCredito tarjetaDeCredito, double montoAAbonar,
+			int cantidadDeCuotas) {
+		return montoTotalAbonar(montoAAbonar, cantidadDeCuotas) <= tarjetaDeCredito.getSaldoDisponible();
+	}
+
+	private static double montoTotalAbonar(double montoAAbonar, int cantidadDeCuotas) {
+		double montoTotalAbonar = montoAAbonar;
+		switch (cantidadDeCuotas) {
+		case 1:
+			montoTotalAbonar = montoAAbonar;
+			break;
+		case 2:
+			montoTotalAbonar = montoAAbonar * 1.03;
+			break;
+		case 3:
+			montoTotalAbonar = montoAAbonar * 1.06;
+			break;
+		case 4:
+			montoTotalAbonar = montoAAbonar * 1.09;
+			break;
+		case 5:
+			montoTotalAbonar = montoAAbonar * 1.12;
+			break;
+		case 6:
+			montoTotalAbonar = montoAAbonar * 1.15;
+			break;
+
+		}
+		return montoTotalAbonar;
+		// return (cantCuotas - 1) * RECARGO_POR_CUOTA;
+	}
+
+}

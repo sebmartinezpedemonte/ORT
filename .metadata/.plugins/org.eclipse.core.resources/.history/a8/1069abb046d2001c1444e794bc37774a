@@ -1,0 +1,20 @@
+package clase1;
+
+import java.util.ArrayList;
+
+public class Clase1 {
+	public static void main(String[] args) {
+		ArrayList<String> personasString = new ArrayList<>();
+		personasString.add(new String("Pepe"));
+		System.out.println(personasString);
+		
+		
+		
+		ArrayList<Persona> personas2 = new ArrayList<>();
+		
+		Persona persona3 = new Persona("Maria", "Estevez", "98765432");
+		personas2.add(persona3);
+		personas2.add(new Persona("Carlos", "Perez", "123456789"));
+		System.out.println(personas2);
+	}
+}

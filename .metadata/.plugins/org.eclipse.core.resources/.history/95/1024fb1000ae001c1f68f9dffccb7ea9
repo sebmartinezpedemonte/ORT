@@ -1,0 +1,26 @@
+package edu.ort.t1.tp1;
+
+import java.util.Scanner;
+
+public class Ejercicio31 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		
+		char ingreso;
+		boolean continuar;
+		
+		System.out.println("¿Deseas continuar?");
+		ingreso = input.nextLine().charAt(0);
+		
+		while(ingreso == 'S'|| ingreso == 's') {
+			
+		}
+
+
+		
+		
+		
+		input.close();
+	}
+}

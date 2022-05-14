@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="//"/>
+			<item value="auxAuto"/>
+			<item value="mostrarAutos"/>
+			<item value="fiatCronos"/>
+			<item value="VWGol"/>
+			<item value="fiarCronos"/>
+			<item value="san Jorge"/>
+			<item value="sanJorge"/>
+			<item value="validacion"/>
+			<item value="turnera2"/>
+			<item value="turnera1"/>
+			<item value="this"/>
+			<item value="set"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="autoABuscar"/>
+			<item value="mostrar"/>
+			<item value="auto1"/>
+			<item value="auto2"/>
+			<item value="Lopez"/>
+			<item value="concesionaria1"/>
+			<item value="Turnera"/>
+			<item value="Promedio"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1173"/>
+		<item key="DIALOG_Y_ORIGIN" value="196"/>
+		<item key="DIALOG_WIDTH" value="459"/>
+		<item key="DIALOG_HEIGHT" value="468"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|8.861539|0|WINDOWS|1|-16|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,11 @@
+package clase1;
+
+import java.util.ArrayList;
+
+public class Clase1 {
+	public static void main(String[] args) {
+		ArrayList<String> personas = new ArrayList<>();
+		
+		
+	}
+}

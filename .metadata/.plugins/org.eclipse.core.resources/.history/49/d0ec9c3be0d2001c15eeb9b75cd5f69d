@@ -1,0 +1,36 @@
+package ejercicio14correctoconparametros;
+
+
+
+public class Promedio {
+	private double promedio;
+
+	private Contador contador;
+	private Acumulador acumulador;
+	private final int ALUMNOS = 2;
+
+	public Promedio(Contador contador, Acumulador acumulador) {
+		this.promedio = 0;
+		this.contador = contador;
+		this.acumulador = acumulador;
+
+	}
+
+	public void incrementar(double valor) {
+
+		while ((contador.obtenerValor()) < ALUMNOS) {
+			acumulador.incrementarValor(valor);
+			contador.incrementarValorEn1();
+		}
+		promedio = acumulador.obtenerValor() / (contador.obtenerValor());
+
+	}
+
+	public double obtenerValor() {
+		//if(contador.obtenerValor() >= 1) {
+		promedio = acumulador.obtenerValor() / (contador.obtenerValor());
+		//}
+		return this.promedio;
+	}
+
+}

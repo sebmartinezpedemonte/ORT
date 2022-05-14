@@ -1,0 +1,21 @@
+package clase1;
+
+public class Persona {
+	private String nombre;
+	private String  apellido;
+	private String DNI;
+	
+	public Persona(String nombre, String apellido, String DNI) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.DNI = DNI;
+	}
+
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", DNI=" + DNI + "]";
+	}
+	
+	
+}

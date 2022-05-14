@@ -1,0 +1,9 @@
+package inventory;
+
+class Product
+  attribute description : mdd_types::String;
+  attribute available : mdd_types::Integer;
+  attribute price : mdd_types::Double;
+end;
+
+end.

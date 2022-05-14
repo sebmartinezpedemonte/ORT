@@ -1,0 +1,34 @@
+package edu.ort.t1.tp1;
+
+import java.util.Scanner;
+
+public class Ejercicio14 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		final int EDAD_MAX = 7;
+		final double ALT_MAX = 1.50;
+		
+		String nombre;
+		int edad;
+		double altura;
+		boolean entraAlJuego;
+		
+		System.out.println("Ingrese su nombre");
+		nombre = input.nextLine();
+		System.out.println("Ingrese su edad");
+		edad= input.nextInt();
+		System.out.println("Ingrese su altura");
+		altura = input.nextDouble();
+		
+		if()
+		
+		
+		
+		
+		
+		
+		input.close();
+	}
+
+}

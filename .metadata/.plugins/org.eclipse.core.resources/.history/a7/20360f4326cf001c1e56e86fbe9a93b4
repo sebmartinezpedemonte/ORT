@@ -1,0 +1,9 @@
+package ejercicio15;
+
+public class Ticket {
+	private String nombreApellido;
+	private double montoTotal;
+	private double montoPorCuota;
+	
+	
+}

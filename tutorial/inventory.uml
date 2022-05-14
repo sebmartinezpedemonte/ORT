@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0" name="inventory" URI="tutorial/inventory">
+  <eAnnotations xmi:id="_com.abstratt2Fmdd2F" source="com.abstratt/mdd/">
+    <details xmi:id="_com.abstratt2Fmdd2F-_details.0" key="dateCreated" value="2022/04/24 09:24:16 037 -0300"/>
+    <details xmi:id="_com.abstratt2Fmdd2F-_details.1" key="version" value="2.13.0"/>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="Product" name="Product">
+    <eAnnotations xmi:id="Product-_com.abstratt2Fmdd2Funit" source="com.abstratt/mdd/unit">
+      <details xmi:id="Product-_com.abstratt2Fmdd2Funit-_details.0" key="name" value="inventory.tuml"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="Product-description" name="description" visibility="public">
+      <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="Product-description-_lowerValue" value="1">
+        <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Integer"/>
+      </lowerValue>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="Product-description-_upperValue" value="1">
+        <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Integer"/>
+      </upperValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Product-available" name="available" visibility="public">
+      <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="Product-available-_lowerValue" value="1">
+        <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Integer"/>
+      </lowerValue>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="Product-available-_upperValue" value="1">
+        <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Integer"/>
+      </upperValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Product-price" name="price" visibility="public">
+      <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Double"/>
+      <lowerValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="Product-price-_lowerValue" value="1">
+        <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Integer"/>
+      </lowerValue>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="Product-price-_upperValue" value="1">
+        <type xmi:type="uml:Class" href="pathmap://MDD_LIBRARIES/mdd_types.uml#Integer"/>
+      </upperValue>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Package>

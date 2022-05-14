@@ -1,0 +1,56 @@
+package ejercicio15;
+
+public class Posnet {
+	
+	public String efectuarPago(TarjetaDeCredito tarjetaDeCredito, double montoAAbonar, int cantidadDeCuotas) {
+		String mensaje = null;
+		if(tarjetaSaldoSuficiente(tarjetaDeCredito, montoAAbonar, cantidadDeCuotas)){
+			
+		}
+		
+		
+		
+		return mensaje;
+	}
+	
+	private boolean tarjetaSaldoSuficiente(TarjetaDeCredito tarjetaDeCredito, double montoAAbonar, int cantidadDeCuotas) {
+		return montoTotalAbonar(montoAAbonar, cantidadDeCuotas)  <= tarjetaDeCredito.getSaldoDisponible();		
+	}
+	
+	private double montoTotalAbonar(double montoAAbonar, int cantidadDeCuotas) {
+		double montoTotalAbonar = montoAAbonar;
+		switch(cantidadDeCuotas) {
+		case 1: 
+			montoTotalAbonar = montoAAbonar*1.0;
+			break;
+		case 2:
+			montoTotalAbonar = montoAAbonar*1.03;
+			break;
+		case 3:
+			montoTotalAbonar = montoAAbonar*1.06;
+			break;
+		case 4:
+			montoTotalAbonar = montoAAbonar*1.09;
+			break;
+		case 5:
+			montoTotalAbonar = montoAAbonar*1.12;
+			break;
+		case 6:
+			montoTotalAbonar = montoAAbonar*1.15;
+			break;
+			default:
+				montoTotalAbonar = montoAAbonar*1.15;
+				System.out.println("No ha ingresado el numero correcto de cuotas, se le cobrara como 6");
+		}
+		return montoTotalAbonar;
+		/*
+		for(int i = 1; i < cantidadDeCuotas; i++) {
+			montoAAbonar = montoAAbonar*1.03;
+		}
+		*/
+		
+		
+		
+	}
+	
+}
