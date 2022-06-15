@@ -1,0 +1,7 @@
+package ejercicio08;
+
+public enum Resultado {
+	MEDICO_NO_TIENE_MAS_TURNOS,
+	PACIENTE_CON_TURNO_YA_ASIGNADO,
+	TURNO_CONFIRMADO;
+}

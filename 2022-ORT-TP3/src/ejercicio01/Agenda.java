@@ -19,7 +19,6 @@ public class Agenda {
 			}
 			i++;
 		}
-
 		return personaABuscar;
 	}
 
@@ -47,8 +46,8 @@ public class Agenda {
 	
 	public boolean modificarDomicilio(String DNI, Domicilio domicilio) {
 		boolean pudoModificar = false;
-		if(buscarPersona(DNI) != null) {
-			buscarPersona(DNI).setDomicilio(domicilio);
+		if(this.buscarPersona(DNI) != null) {
+			this.buscarPersona(DNI).setDomicilio(domicilio);
 			pudoModificar = true;
 		}		
 		return pudoModificar;
@@ -59,12 +58,13 @@ public class Agenda {
 
 	public void listarPersonas() {
 		for (Persona personas : personas) {
-			System.out.println(personas);
+			System.out.println(personas.obtenerNombreCompleto());
 		}
 	}
 
 	public Persona devolverUltimo() {
 		Persona ultimaPersona = null;
+		//if(!(personas.isEmpty())){}
 		if (personas.size() > 0) {
 			ultimaPersona = personas.get(personas.size() - 1);
 		}

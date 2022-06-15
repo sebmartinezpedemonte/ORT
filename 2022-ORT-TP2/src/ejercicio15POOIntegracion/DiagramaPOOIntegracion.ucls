@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ejercicio15POOIntegracion.Titular" project="2022-ORT-TP2" 
+    file="/2022-ORT-TP2/src/ejercicio15POOIntegracion/Titular.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="252" width="276" x="464" y="358"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ejercicio15POOIntegracion.TarjetaDeCredito" project="2022-ORT-TP2" 
+    file="/2022-ORT-TP2/src/ejercicio15POOIntegracion/TarjetaDeCredito.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="252" width="430" x="464" y="66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="ejercicio15POOIntegracion.Test" project="2022-ORT-TP2" 
+    file="/2022-ORT-TP2/src/ejercicio15POOIntegracion/Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="108" width="164" x="934" y="66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ejercicio15POOIntegracion.Ticket" project="2022-ORT-TP2" 
+    file="/2022-ORT-TP2/src/ejercicio15POOIntegracion/Ticket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="162" width="204" x="1138" y="66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ejercicio15POOIntegracion.Posnet" project="2022-ORT-TP2" 
+    file="/2022-ORT-TP2/src/ejercicio15POOIntegracion/Posnet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="252" width="402" x="1382" y="66"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="ejercicio15POOIntegracion.EntidadFinanciera" project="2022-ORT-TP2" 
+    file="/2022-ORT-TP2/src/ejercicio15POOIntegracion/EntidadFinanciera.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="126" width="245" x="780" y="358"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <association id="7">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="8" name="entidadFinanciera"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="10">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="11" name="titular"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

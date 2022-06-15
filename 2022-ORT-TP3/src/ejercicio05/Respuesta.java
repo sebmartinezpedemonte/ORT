@@ -1,0 +1,8 @@
+package ejercicio05;
+
+public enum Respuesta {
+	PRESTAMO_EXITOSO,
+	NO_HAY_EJEMPLARES,
+	TOPE_PRESTAMO_ALCANZADO,
+	MULTA_VIGENTE;
+}

@@ -10,11 +10,11 @@ public class Test {
 		Promedio promedio1 = new Promedio(contador1, acumulador1);
 		System.out.println(promedio1.obtenerValor());
 
-		promedio1.incrementar(5);
+		promedio1.incrementar(4);
 		System.out.println(promedio1.obtenerValor());
-		promedio1.incrementar(3);
+		promedio1.incrementar(4);
 		System.out.println(promedio1.obtenerValor());
-		promedio1.incrementar(9);
+		promedio1.incrementar(4);
 		System.out.println(promedio1.obtenerValor());
 
 

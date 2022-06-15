@@ -4,6 +4,15 @@ public class ClaseUno { //convencion CamelCase
 
 	public static void main(String[] args) {
 
+		int cantidad = 5;
+		double porcentaje = cantidad*.2;
+		int resultado = (int) (cantidad + porcentaje);
+		System.out.println(resultado);
+		
+		
+		
+		
+		
 		// bit 0 o 1
 		// byte: 8 bits 2 ^ 8 = 256
 		// 0 al 255 o -128 a +127
@@ -15,16 +24,16 @@ public class ClaseUno { //convencion CamelCase
 		// variable tengo que poner el tipo de variable
 
 		// o tmb
-		int edad; // declaracion
-		edad = 30; // asignacion: variable = expresion
-		int x = 0; // declaracion con inicializacion
+		//int edad; // declaracion
+		//edad = 30; // asignacion: variable = expresion
+		//int x = 0; // declaracion con inicializacion
 
-		System.out.println(edad);
+		//System.out.println(edad);
 
-		edad = edad + 5; // variable <= expresion
+		//edad = edad + 5; // variable <= expresion
 		// o edad +=5;
-		System.out.println(edad);
-		System.out.println(x);
+		//System.out.println(edad);
+		//System.out.println(x);
 		/*
 		 * System.out.println("123" +"456"); //String
 		 * 

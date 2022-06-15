@@ -1,0 +1,5 @@
+package ar.edu.ort.thp.tp3.ej5;
+
+public enum ResuVerPeli {
+	CLIENTE_INEXISTENTE, CONTENIDO_INEXISTENTE, CLIENTE_DEUDOR, CONTENIDO_NO_DISPONIBLE, OK
+}
