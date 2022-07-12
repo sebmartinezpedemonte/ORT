@@ -3,7 +3,7 @@ package parcial.trenes;
 public class Test {
 	public static void main(String[] args) {
 		Empresa empresa1 = new Empresa();
-		
+
 		empresa1.crearFormacion();
 		empresa1.crearFormacion();
 		System.out.println();

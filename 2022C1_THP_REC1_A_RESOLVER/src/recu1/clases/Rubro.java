@@ -1,0 +1,6 @@
+package recu1.clases;
+
+public enum Rubro {
+	CARNICERIA, ALMACEN, VERDULERIA, PANADERIA,
+	FARMACIA, FERRETERIA, INDUMENTARIA, OTROS
+}

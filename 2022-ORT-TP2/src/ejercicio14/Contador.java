@@ -5,7 +5,11 @@ public class Contador {
 	private int numeroAContar;
 	
 	public Contador() {
-		this.numeroAContar = 0;
+		this(0);
+	}
+	
+	public Contador (int cantIni) {
+		numeroAContar = cantIni;
 	}
 	
 	public void incrementarValorEn1() {

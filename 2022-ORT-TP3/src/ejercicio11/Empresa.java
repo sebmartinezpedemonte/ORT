@@ -44,12 +44,13 @@ public class Empresa {
 		for(Carrera carrera : carreras) {
 			cantPilotos = carrera.getCantPilotosPorCarrera();
 			cantPilotosPorCarrera.add(cantPilotos);
+			cantPilotosPorCarrera.add(1);
 			fechaCarrera = carrera.getFecha();
 			fechasCarreras.add(carrera.getFecha());
 			System.out.println(fechaCarrera + " " + cantPilotos);
 		}
 		
-		
+		System.out.println(cantPilotosPorCarrera);
 		return cantPilotosPorCarrera;
 	}
 	
