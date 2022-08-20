@@ -3,14 +3,23 @@
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
 			<item value="C:\Clases de ingles\ORT\2021\THP Taller de herramientas de programacion\Proyectos"/>
 			<item value="C:\Clases de ingles\ORT\THP Taller de herramientas de programacion\Proyectos"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\sebmartinez\Downloads\2022C1_THP_FINAL_CURSO_ALUMNO.zip"/>
+			<item value="C:\Users\sebmartinez\Downloads\THP-REC1-YA-11C-GOMEZ NEVOT-JUAN IGNACIO (1).zip"/>
+			<item value="C:\Users\sebmartinez\Downloads\THP-REC1-YA-11C-GOMEZ NEVOT-JUAN IGNACIO.zip"/>
+			<item value="C:\Users\sebmartinez\Downloads\2022C1_THP_REC1_A_RESOLVER.zip"/>
+			<item value="C:\Users\sebmartinez\Downloads\THP-SIM2-YA-11C-GOMEZ NEVOT-JUAN IGNACIO.zip"/>
+			<item value="C:\Users\sebmartinez\Downloads\2022C1_THP_P2_A_COMPLETAR.zip"/>
+			<item value="C:\Users\sebmartinez\Downloads\THP_2022C1_P2SIM_INCOMPLETO.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\Unidad 4 colecciones\thp_tp3 (3).zip"/>
 			<item value="C:\Clases de ingles\ORT\THP Taller de herramientas de programacion\Proyectos\PrimerProyecto"/>
 			<item value=""/>
 		</list>
@@ -21,6 +30,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\sebmartinez\Downloads\Recuperatorio1PROFE.zip"/>
 			<item value="C:\Clases de ingles\ORT\THP Taller de herramientas de programacion\Proyectos"/>
 		</list>
 	</section>

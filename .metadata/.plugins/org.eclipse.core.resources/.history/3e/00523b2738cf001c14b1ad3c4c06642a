@@ -1,6 +1,0 @@
-package ejercicio15;
-
-public enum EntidadFinanciera {
-	BIRZA,
-	CASTERMARD;
-}

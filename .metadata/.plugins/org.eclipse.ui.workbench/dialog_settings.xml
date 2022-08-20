@@ -41,18 +41,26 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\RESUELTO-ENTERO-THP-FINAL-YA-11C-GOMEZ NEVOT-JUAN IGNACIO.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP-FINAL-YA-11C-GOMEZ NEVOT-JUAN IGNACIO.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\FPR-PARCIAL-LARGO.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP-SIM2-YA-11C-MARTINEZPEDEMONTE-Sebastian.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\TUKI.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP-SIM2-YA-11C-MARTINEZ-Sebastian.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\TP3.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\BINGO.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\CORRECAMINOS.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\CORRECAMINOS_V2.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\TP2.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\PREPARANDO_LA_RECETA.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\PARCIAL_TRENES.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\PARCIAL_TRENES_INCOMPLETO.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_EJ10.zip"/>
+			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_TP2.zip"/>
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_Ej06.zip"/>
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_MARTINEZPEDEMONTE_SEBASTIAN.zip"/>
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP_Parcial_Lunes.zip"/>
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP_Parcial_Taxi.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP_Parcial_Zoologico.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP_Parcial_Biblioteca.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP_MartinezSebastian_EJ1_Parcial_Autopista.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP_MartinezSebastian_TP1_EJ19.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\THP_SEBASTIANMARTINEZ_TP1_EJ19.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\TP1EJ19.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\TP1.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\MiProyecto.zip"/>
 		</list>
 	</section>
 	<section name="ZipFileImportWizard">
@@ -63,5 +71,7 @@
 		<item key="DIALOG_WIDTH" value="1042"/>
 		<item key="DIALOG_HEIGHT" value="1020"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|8.861539|0|WINDOWS|1|-16|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="FileSystemImportWizard">
 	</section>
 </section>
