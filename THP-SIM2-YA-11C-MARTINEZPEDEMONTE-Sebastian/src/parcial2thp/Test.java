@@ -1,8 +1,17 @@
 package parcial2thp;
 
 public class Test {
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
 		Reunion reunion1 = new Reunion("El asadito");
+		Amigo amigo1 = new Amigo("Juan", "Perez");
+		
+		try {
+			reunion1.anotarAmigoObjeto(amigo1);
+			reunion1.anotarAmigoObjeto(amigo1);
+		} catch (RegistroduplicadoException e) {
+			System.out.println(e.getMessage());			
+		}
+				
 		
 		reunion1.anotarAmigo("Amigo 1", "Domicilio 1");
 		reunion1.anotarAmigo("Amigo 2", "Domicilio 2");

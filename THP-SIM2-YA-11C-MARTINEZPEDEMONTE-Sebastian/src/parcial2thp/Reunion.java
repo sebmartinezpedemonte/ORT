@@ -1,6 +1,7 @@
 package parcial2thp;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Reunion {
 	private String nombreEvento;
@@ -33,6 +34,13 @@ public class Reunion {
 		return resultado;
 	}
 	
+	public void anotarAmigoObjeto(Amigo amigo) throws RegistroduplicadoException {	
+		if(this.amigos.contains(amigo)) {
+			throw new RegistroduplicadoException("El amigo con nombre " + amigo.getNombre() + " ya esta en el grupo");
+		}else {
+			amigos.add(amigo);
+		}
+	}
 	
 	public Resultado crearPropuesta(String nombre, Dia dia, Momento momento) {
 		
@@ -208,21 +216,28 @@ public class Reunion {
 			System.out.println(amigo.getNombre());
 		}
 		System.out.println("Propuestas registradas para " + this.nombreEvento);
-		for(Propuesta propuesta : propuestas) {
+		
+		/*for(Propuesta propuesta : propuestas) {
 			propuesta.listarAmigos();
+		}*/
+		
+		//iterando usando Iterator
+		Iterator<Propuesta> it = propuestas.iterator();
+		while(it.hasNext()) {
+			Propuesta p = it.next();
+			p.listarAmigos();
 		}
+		
 		System.out.println("Amigos no registrados en ninguna propuesta: ");			
+		
 		for(Amigo amigo : amigosFaltantes) {
 			System.out.println(amigo.getNombre());
 		}
+		amigosFaltantes.forEach(a -> System.out.println(a.getNombre()));
+		//iterando usando expresiones lambda
 		
-		/*
-		for(Amigo amigo : amigos) {
-			for(Propuesta propuesta : propuestas) {
-				
-			}
-		}
-		*/
+		
+
 
 		
 		}
