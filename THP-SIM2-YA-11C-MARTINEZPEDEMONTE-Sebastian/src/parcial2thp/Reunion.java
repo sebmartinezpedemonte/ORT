@@ -228,7 +228,7 @@ public class Reunion {
 			p.listarAmigos();
 		}
 		
-		System.out.println("Amigos no registrados en ninguna propuesta: ");			
+		System.out.println("Amigos no registrados en ninguna propuesta:");			
 		
 		for(Amigo amigo : amigosFaltantes) {
 			System.out.println(amigo.getNombre());
