@@ -46,8 +46,8 @@
     <fullyQualifiedTypeName name="recu1.clases.Rubro"/>
     <fullyQualifiedTypeName name="final1.clases.YaEmpanadas"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ort.edu.tp1.clase01.clases.Persona"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

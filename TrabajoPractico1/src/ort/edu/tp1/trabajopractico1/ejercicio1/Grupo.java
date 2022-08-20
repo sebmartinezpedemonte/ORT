@@ -31,7 +31,7 @@ public class Grupo {
 			System.out.println(nombreIntegrante + " fue asignado al grupo " + this.nombre);
 		}
 	}
-	
+	//para que usamos este?
 	private int obtenerPosicionIntegrante(String nombreIntegrante) {
 		int posicion = -1;
 		String integrante = null;
