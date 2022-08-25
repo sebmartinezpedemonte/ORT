@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="ejercicio15.TarjetaDeCredito"/>
     <fullyQualifiedTypeName name="ejercicio15.EntidadFinanciera"/>
     <fullyQualifiedTypeName name="ejercicio01.Domicilio"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="ejercicio02.Empleado"/>
     <fullyQualifiedTypeName name="ejercicio03.TipoPropiedad"/>
     <fullyQualifiedTypeName name="ejercicio03.Propiedad"/>
@@ -49,5 +48,11 @@
     <fullyQualifiedTypeName name="ort.edu.tp1.clase01.clases.Persona"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.security.AllPermission"/>
+    <fullyQualifiedTypeName name="ort.edu.tp1.clase02.Escuela.Alumno"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="tp2.ej1.TipoDeTelefono"/>
+    <fullyQualifiedTypeName name="tp2.ej1.Persona"/>
 </qualifiedTypeNameHistroy>
