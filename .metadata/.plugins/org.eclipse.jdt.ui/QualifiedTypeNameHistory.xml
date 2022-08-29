@@ -52,7 +52,7 @@
     <fullyQualifiedTypeName name="java.security.AllPermission"/>
     <fullyQualifiedTypeName name="ort.edu.tp1.clase02.Escuela.Alumno"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="tp2.ej1.TipoDeTelefono"/>
     <fullyQualifiedTypeName name="tp2.ej1.Persona"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
