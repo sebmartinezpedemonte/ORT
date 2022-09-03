@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="mueble"/>
+		<item key="selection" value="TODO"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="todo"/>
+			<item value="buscar"/>
+			<item value="forEach"/>
+			<item value="::"/>
 			<item value="persona"/>
 			<item value="muda"/>
 			<item value="mueble"/>
@@ -19,10 +23,6 @@
 			<item value="int"/>
 			<item value="CANC"/>
 			<item value="CANCELAR"/>
-			<item value="cA"/>
-			<item value="buscar"/>
-			<item value=".getMomento()"/>
-			<item value=".getDia()"/>
 		</list>
 		<list key="replacehistory">
 			<item value="mueble"/>

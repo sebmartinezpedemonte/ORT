@@ -54,7 +54,7 @@ public class Edificio {
 			v.mostrarDatos();
 		}
 	}
-
+	//TODO preguntar si podemos usar el contains
 	public void agregarVivienda(int pisoIngresado, String departamentoIngresado) {
 		Vivienda viviendaAgregar = new Vivienda(pisoIngresado, departamentoIngresado);
 		if (!viviendas.contains(viviendaAgregar)) {
@@ -170,7 +170,7 @@ public class Edificio {
 		private ArrayList<Persona> personas;
 		private ArrayList<Mueble> muebles;
 		private int nroVivienda;
-		// private static int idVivienda = 1;
+		
 
 		public Vivienda(int piso, String departamento) {
 			this.personas = new ArrayList<>();
@@ -226,10 +226,10 @@ public class Edificio {
 
 			System.out.println("Departamento: " + pisoYDepartamentoVivienda.piso + "° ”"
 					+ pisoYDepartamentoVivienda.departamento + "”");
-			// if(!personas.isEmpty()) {
+			// if(!personas.isEmpty()) {     si dejo esto no queda igual al print del enunciado aunque asi queda mejor
 			mostrarDatosPersonas();
 			// }
-			// if(!muebles.isEmpty()) {
+			// if(!muebles.isEmpty()) {       si dejo esto no queda igual al print del enunciado aunque asi queda mejor
 			mostrarDatosMuebles();
 			// }
 		}
@@ -259,7 +259,7 @@ public class Edificio {
 				muebles.add(mueble);
 			}
 		}
-
+		//TODO preguntar esto tambien: hacer esto en vez de usar el metodo buscar
 		public void agregarPersona(String nombre, String apellido, int edad) {
 			Persona personaAgregar = new Persona(nombre, apellido, edad);
 			if (!personas.contains(personaAgregar)) {

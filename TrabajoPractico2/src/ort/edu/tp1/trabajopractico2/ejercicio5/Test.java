@@ -23,7 +23,7 @@ public class Test {
 		edificio1.mostrarViviendas();
 		//edificio1.realizarMudanza(4, "C", 2, "B");
 		//edificio1.mostrarViviendas();
-
+		
 		
 	}
 }
