@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ejercicio13.Resultado"/>
-    <fullyQualifiedTypeName name="ejercicio15.Titular"/>
-    <fullyQualifiedTypeName name="ejercicio15.TarjetaDeCredito"/>
-    <fullyQualifiedTypeName name="ejercicio15.EntidadFinanciera"/>
-    <fullyQualifiedTypeName name="ejercicio01.Domicilio"/>
-    <fullyQualifiedTypeName name="ejercicio02.Empleado"/>
-    <fullyQualifiedTypeName name="ejercicio03.TipoPropiedad"/>
     <fullyQualifiedTypeName name="ejercicio03.Propiedad"/>
     <fullyQualifiedTypeName name="ejercicio00VideosCimino.TipoInstrumento"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.ProfileCompiledMethodsPhase"/>
@@ -59,5 +52,12 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ort.edu.tp1.trabajopractico3.ejercicio3.TipoTelevisor"/>
     <fullyQualifiedTypeName name="ort.edu.tp1.trabajopractico3.ejercicio4.Imprimible"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="ort.edu.tp1.trabajopractico2.ej7prog1tp3.TrianguloEquilatero"/>
+    <fullyQualifiedTypeName name="ort.edu.tp1.trabajopractico2.ej7prog1tp3.GrupoDeFiguras"/>
+    <fullyQualifiedTypeName name="ort.edu.tp1.trabajopractico2.ej8prog1tp3.Empleado"/>
+    <fullyQualifiedTypeName name="ort.edu.tp1.trabajopractico2.ej8prog1tp3.Empresa"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ort.edu.tp1.trabajopractico2.ej10prog1tp3.EmbarcacionDeportiva"/>
 </qualifiedTypeNameHistroy>

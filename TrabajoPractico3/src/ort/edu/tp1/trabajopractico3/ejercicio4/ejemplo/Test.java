@@ -10,10 +10,10 @@ public class Test {
 		Lavarropa lava1 = new Lavarropa("Drean", "CONCEPT 5.05", 3, 600, false, 6799, 6, TipoLavarropas.SEMIAUTOMATICO);
 		
 		CasaElectrodomesticos casa1 = new CasaElectrodomesticos("Fravega");
-		casa1.cargarElectrodomesticos(tv1);
-		casa1.cargarElectrodomesticos(hela1);
-		casa1.cargarElectrodomesticos(lava1);		
-		casa1.comprarElectrodomestico();
+		casa1.cargarElectrodomesticos(tv1)
+			.cargarElectrodomesticos(hela1)
+			.cargarElectrodomesticos(lava1)		
+			.comprarElectrodomestico();
 		
 		Cliente cliente1 = new Cliente("205555654789", "Carlos", "Estevez");
 		Ticket ticket1 = new Ticket("12/5/2022", cliente1, casa1.listaElectrodomesticosComprados() );

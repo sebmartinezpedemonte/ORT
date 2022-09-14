@@ -41,6 +41,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\ORT\2022\2do cuatri\TP1 Taller Programacion 1\PROYECTOS\YA-TP1-TP3.zip"/>
 			<item value="C:\ORT\2022\2do cuatri\TP1 Taller Programacion 1\PROYECTOS\YA-TP1-12A-GRP01-TP2.zip"/>
 			<item value="C:\ORT\2022\2do cuatri\TP1 Taller Programacion 1\PROYECTOS\YA-TP1-12A-GRP01.zip"/>
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\RESUELTO-ENTERO-THP-FINAL-YA-11C-GOMEZ NEVOT-JUAN IGNACIO.zip"/>
@@ -60,7 +61,6 @@
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_EJ10.zip"/>
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_TP2.zip"/>
 			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_Ej06.zip"/>
-			<item value="C:\Clases de ingles\ORT\2022\THP\PROYECTOS\YA_THPC_MARTINEZPEDEMONTE_SEBASTIAN.zip"/>
 		</list>
 	</section>
 	<section name="ZipFileImportWizard">

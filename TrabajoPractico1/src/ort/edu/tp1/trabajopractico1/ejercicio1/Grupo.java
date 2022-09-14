@@ -1,6 +1,7 @@
 package ort.edu.tp1.trabajopractico1.ejercicio1;
 
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class Grupo {
 	
@@ -55,6 +56,7 @@ public class Grupo {
 		return integrante;
 	}
 	
+
 	public String buscarIntegrante(String nombre) {
 		String integrante = null;
 		int i = 0;

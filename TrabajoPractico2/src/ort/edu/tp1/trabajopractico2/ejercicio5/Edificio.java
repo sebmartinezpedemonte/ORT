@@ -1,6 +1,7 @@
 package ort.edu.tp1.trabajopractico2.ejercicio5;
 
 import java.util.ArrayList;
+import java.util.function.Predicate;
 
 public class Edificio {
 
@@ -136,6 +137,29 @@ public class Edificio {
 		}
 	}
 
+	/*
+	 * 	private Vivienda buscarViviendaPorNroVivienda(int nroViviendaIngresada) {
+		return  viviendas.stream()
+				.filter(v -> v.nroVivienda == nroViviendaIngresada)
+				.findFirst().get();		
+				
+	}
+	 */
+	/*private Vivienda buscarViviendaPorPisoYDepartamento(int pisoIngresado, String departamentoIngresado) {
+		Vivienda viviendaBuscar = viviendas.stream()
+				.filter(p -> p.pisoYDepartamentoVivienda.equals(new PisoYDepartamentoVivienda(pisoIngresado,departamentoIngresado) ))
+				.findFirst().get();
+					 //&&
+							//d -> d.pisoYDepartamentoVivienda.departamento.equals(departamentoIngresado) 
+				
+				
+				
+	
+
+		return viviendaBuscar;
+	}
+	*/
+	
 	private Vivienda buscarViviendaPorPisoYDepartamento(int pisoIngresado, String departamentoIngresado) {
 		Vivienda viviendaBuscar = null;
 		int i = 0;
@@ -149,8 +173,22 @@ public class Edificio {
 		}
 		return viviendaBuscar;
 	}
-
+	
+	
+	/*
+	 *         Usuario usuario = lista.stream()
+                .filter(u -> u.getNombre().equals("Pepe"))
+                .findFirst().get();
+	 */
+	
 	private Vivienda buscarViviendaPorNroVivienda(int nroViviendaIngresada) {
+		return  viviendas.stream()
+				.filter(v -> v.nroVivienda == nroViviendaIngresada)
+				.findFirst().get();		
+				
+	}
+	
+	/*private Vivienda buscarViviendaPorNroVivienda(int nroViviendaIngresada) {
 		Vivienda viviendaBuscar = null;
 		int i = 0;
 		while (viviendas.size() > i && viviendaBuscar == null) {
@@ -162,7 +200,7 @@ public class Edificio {
 		}
 		return viviendaBuscar;
 	}
-
+	*/
 	private class Vivienda {
 
 		private PisoYDepartamentoVivienda pisoYDepartamentoVivienda;// inner class composicion. Una vivienda tiene que

@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class CasaElectrodomesticos {
 	
-	public final static Scanner input = new Scanner(System.in);
+	private final static Scanner input = new Scanner(System.in);
 	
 	String nombre;
 	private ArrayList<Electrodomestico> electrodomesticos;

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class CasaElectrodomesticos {
 
-	public final static Scanner input = new Scanner(System.in);
+	private final static Scanner input = new Scanner(System.in);
 
 	String nombre;
 	private ArrayList<Electrodomestico> electrodomesticos;
@@ -16,23 +16,30 @@ public class CasaElectrodomesticos {
 		this.electrodomesticos = new ArrayList<>();
 		electrodomesticosElegidos = new ArrayList<>();
 	}
-
-	public void cargarElectrodomesticos(Electrodomestico elec) {
+	
+	//uso el this para poder encadenar los add
+	public CasaElectrodomesticos cargarElectrodomesticos(Electrodomestico elec) {
 		electrodomesticos.add(elec);
+		return this;
 	}
 
 	private void ofrecerProductos() {
 		System.out.println("Estos son los electrodomesticos que tenemos:");
-		for (Electrodomestico elec : electrodomesticos) {
-			System.out.println(elec.getNroSerie() + " " + elec);
-		}
+		electrodomesticos.forEach(System.out::println);
 	}
+	
+	//electrodomesticos.forEach(e -> System.out.println(e));
+	//for (Electrodomestico elec : electrodomesticos) {
+	//	System.out.println(elec);
+	//}
 
 	public ArrayList<Electrodomestico> comprarElectrodomestico() {
 		// ArrayList<Electrodomestico> electrodomesticosElegidos = new ArrayList<>();
 		ofrecerProductos();
 		System.out.println("Que electrodomesticos desea llevar? Presione 0 si desea acabar la venta");
+		try {
 		int nroElectro = Integer.parseInt(input.nextLine());
+		
 		while (electrodomesticos.size() > 0 && nroElectro != 0) {
 
 			Electrodomestico electroComprar = buscarElectrodomestico(nroElectro);
@@ -48,6 +55,11 @@ public class CasaElectrodomesticos {
 				nroElectro = Integer.parseInt(input.nextLine());
 			}
 		}
+		}catch(IllegalArgumentException e) {
+			System.out.println("El caracter ingresado es invalido: " + e.getMessage());
+			comprarElectrodomestico();
+		}
+		
 		if (electrodomesticosElegidos.size() > 0) {
 			// detalleCompleto(electrodomesticosElegidos);
 		} else {
@@ -61,7 +73,7 @@ public class CasaElectrodomesticos {
 		lista = electrodomesticosElegidos;
 		return lista;
 	}
-
+	/*
 	private Electrodomestico buscarElectrodomestico(int nroSerie) {
 		int i = 0;
 		Electrodomestico electroBuscar = null;
@@ -74,7 +86,27 @@ public class CasaElectrodomesticos {
 		}
 		return electroBuscar;
 	}
+	*/
+	/*private Electrodomestico buscarElectrodomestico(int nroSerie) {
+		Electrodomestico elecBuscar = null;
+		try {
+			elecBuscar = electrodomesticos.stream()
+					.filter(a -> a.getNroSerie() == nroSerie)
+					.findFirst().get();
+		}catch(RuntimeException e) {
+			
+		}		
+		return elecBuscar;
+	}*/
+	
+	private Electrodomestico buscarElectrodomestico(int nroSerie) {
+		return electrodomesticos.stream()
+					.filter(a -> a.getNroSerie() == nroSerie)
+					.findFirst().orElse(null);		
+	}
 
+	
+	
 	/*
 	 * Articulos: Heladera Whirlpool, modelo H2745, no frost, capacidad 250 litros:
 	 * $14999. Televisor smart Philips 49 pulgadas, modelo 49PGFS: $14370.

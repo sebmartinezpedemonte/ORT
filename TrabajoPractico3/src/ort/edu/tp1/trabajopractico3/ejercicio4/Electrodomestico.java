@@ -43,12 +43,12 @@ public abstract class Electrodomestico implements Imprimible{
 		return precio;
 	}
 	
-	
+
 	public abstract String detalleCompleto();
 	
 	@Override
 	public String toString() {
-		return ", " + marca + ", modelo " + modelo;
+		return this.nroSerie + " " + this.getClass().getSimpleName() + ", " + marca + ", modelo " + modelo;
 	}
 
 	

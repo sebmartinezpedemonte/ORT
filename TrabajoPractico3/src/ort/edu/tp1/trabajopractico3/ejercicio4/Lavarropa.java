@@ -35,7 +35,7 @@ public class Lavarropa extends Electrodomestico{
 		return "Lavarropas " + super.getMarca() + " " +  tipo.getnombreTipo() + ", carga maxima " 
 				+ cargaMaxima + "kg, modelo " + super.getModelo() + ": $" + super.getPrecio() +".";
 	}
-	
+
 	@Override
 	public void imprimir() {
 System.out.println("Lavarropas " + super.getMarca() + " " +  tipo.getnombreTipo() + ", carga maxima " 

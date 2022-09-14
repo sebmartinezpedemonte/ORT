@@ -34,11 +34,6 @@ public class Televisor extends Electrodomestico{
 				+" pulgadas, modelo " + super.getModelo() + ": $" + super.getPrecio()+".");
 	}
 
-	@Override
-	public String toString() {
-		return "Televisor " + super.toString();
-	}
-	
-	
+
 	
 }

@@ -42,7 +42,7 @@ public abstract class Electrodomestico {
 	public double getPrecio() {
 		return precio;
 	}
-	//con este metodo puedo conseguir el nombre de la clase pero es mejor usar el toString()
+	//con este metodo puedo conseguir el nombre de la clase pero preferi usar el toString() de las clases hijas
 	public String getNombreClase() {
 		return this.getClass().getSimpleName();
 	}
@@ -52,6 +52,8 @@ public abstract class Electrodomestico {
 	@Override
 	public String toString() {
 		return ", " + marca + ", modelo " + modelo;
+		//o solo este toString y noToString en las clases hijas
+		//return this.getClass().getSimpleName() + ", " + marca + ", modelo " + modelo;
 	}
 
 	

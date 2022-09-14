@@ -35,11 +35,13 @@ public class Persona {
 
 	private void mostrarEmails() {
 		System.out.println("email: ");
-		for (Email email : emails) {
+		/*for (Email email : emails) {
 			System.out.println(email.getValor());
-		}
+		}*/		
+		emails.forEach(e ->  System.out.println(e.getValor()));
 		//o con un toString- agregando metodo toString en las demas clases-
-		//emails.forEach(System.out::println);		
+		
+				
 	}
 
 
